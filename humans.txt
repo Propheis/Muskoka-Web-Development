@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+Kevin Zuern - Developer and Designer
+
+# THANKS
+Shout out to 
+* [Flat-It](http://flat-it.com/) for the great free webfont used in the heading (Bebas)
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr

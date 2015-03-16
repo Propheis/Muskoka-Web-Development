@@ -1,0 +1,686 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+   html,
+   button,
+   input,
+   select,
+   textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Notify User of <a> Link types
+   ========================================================================== */
+   .main-container a[href$='.docx']:not(.nolinkicon), .main-container a[href$='.rtf']:not(.nolinkicon), .main-container a[href$='.docx']:not(.nolinkicon) {
+    padding: 5px 20px 5px 0;
+    background: transparent url(../img/icons//icon_doc.gif) no-repeat center right;
+}
+.main-container a[href$='.rss']:not(.nolinkicon), .main-container a[href$='.atom']:not(.nolinkicon) { 
+    padding: 5px 20px 5px 0;
+    background: transparent url(../img/icons//icon_feed.gif) no-repeat center right;
+}
+.main-container a[href$='.vcard']:not(.nolinkicon) { 
+    padding: 5px 20px 5px 0;
+    background: transparent url(../img/icons//icon_vcard.gif) no-repeat center right;
+}
+.main-container a[href$='.pdf']:not(.nolinkicon) { 
+    padding: 5px 20px 5px 0;
+    background: transparent url(../img/icons//icon_pdf.gif) no-repeat center right;
+}
+.main-container a[href$='.zip']:not(.nolinkicon), .main-container a[href$='.rar']:not(.nolinkicon), .main-container a[href$='.gzip']:not(.nolinkicon), .main-container a[href$='.bzip']:not(.nolinkicon), .main-container a[href$='.ace']:not(.nolinkicon) { 
+    padding: 5px 20px 5px 0;
+    background: transparent url(../img/icons//icon_archive.gif) no-repeat center right;
+}
+.main-container a[href$='.ical']:not(.nolinkicon) { 
+    padding: 5px 20px 5px 0;
+    background: transparent url(../img/icons//icon_ical.gif) no-repeat center right;
+}
+.main-container a[href ^="callto:"]:not(.nolinkicon) {
+    padding: 5px 20px 5px 0;
+    background: transparent url(../img/icons//icon_call.gif) no-repeat center right;
+}
+.main-container a[href ^="mailto:"]:not(.nolinkicon) {
+    padding: 5px 20px 5px 0;
+    background: transparent url(../img/icons//icon_mailto.gif) no-repeat center right;
+}
+.main-container a[href^="http"]:not(.nolinkicon) {
+    padding:5px 20px 5px 0;
+    background: transparent url(../img/icons//icon_external.gif) no-repeat center right;
+}
+
+/* ==========================================================================
+   Author Styles
+   ========================================================================== */
+   @font-face {
+    font-family: 'bebasregular';
+    src: url('fonts/BEBAS___-webfont.eot');
+    src: url('fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/BEBAS___-webfont.woff') format('woff'),
+    url('fonts/BEBAS___-webfont.ttf') format('truetype'),
+    url('fonts/BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    font-family: 'Open sans', sans-serif;
+    background:#333 url('../img/bg.png') repeat;
+}
+header.wrapper {
+    color: #FFF;
+    background-color: #131313;
+    margin: 0 auto;
+    z-index: 1;
+    box-shadow: 0px 11px 10px -4px #BBB;
+    border-bottom: 1px solid #CCC;
+}
+.header-container .title {
+    font-family: 'bebasregular', serif;
+    text-align: center;
+    margin:10px 0;
+    transition: text-shadow 0.3s linear 0s;
+
+
+    /*Image Replacement logo*/
+    background-image: url(http://muskokawebdevelopment.com/clients/kevinzlogo-white.png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 298px;
+    height: 86px;
+    margin: 0 auto;
+}
+.header-container .title span.subtitle {
+   font-size: 1.5em;
+   margin: .83em 0;   
+}
+.header-container:hover .title {
+    text-shadow: 0px 0px 15px #ccc;
+}
+.header-container nav {
+    display:block;
+    max-width:960px;
+    text-align: center;
+    margin:0 auto -5px auto;
+}
+.header-container nav ul {
+    margin:0;
+    padding:0;
+    display:inline-table;
+}
+.header-container nav ul li {
+    float:left;
+}
+.header-container nav ul li a {
+    padding: 14px 35px;
+    border-radius: 3px;
+    display: inline-block;
+    transition: background-color 0.1s linear 0ms;
+    margin-top: 1px;
+}
+.header-container nav a:link,.header-container nav a:visited {
+    color:#fff;
+    text-decoration:none;
+}
+.header-container nav a:hover {
+    text-decoration: underline;
+}
+.main-container {
+    max-width:960px;
+    margin:0 auto;
+    background-color:#FFF;
+}
+.main-container img {
+    max-width: 100%;
+    height:auto;
+    border: 1px solid #CCC;
+    padding: 5px;
+    border-radius: 5px;
+    transition:box-shadow 0.2s ease;
+}
+.main-container img:hover {
+    box-shadow: 1px 1px 5px #999;
+}
+.main-container img.nodecoration {
+    border:0px;
+    border-radius: 0px;
+}
+.main-container img.nodecoration:hover {
+    box-shadow:none;
+}
+
+.main-container article {
+    margin:0px 10px;
+}
+.main-container h1 {
+    display:inline-block;
+    margin-left:-10px;
+    font-family: 'bebasregular', serif;
+    padding: 10px 15px 10px 10px;
+    background-color:#131313;
+    color:#fff;
+    box-shadow: 2px 2px 3px #CCC;
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    min-width:85%;
+    word-spacing: 5px;
+}
+.main-container h2 {
+    text-align: center;
+    font-size: 2em;
+    border-top: 3px #000 dashed;
+    border-bottom: 3px #000 dashed;
+}
+.packagelist .logo img {
+    max-width:100%;
+}
+.packagelist .price {
+    background-color:rgb(27,31,34);
+}
+.packagelist .Basic {
+    background-color: rgb(189,227,64);
+}
+.packagelist .Plus {
+    background-color: rgb(65,163,228);
+}
+.packagelist .Premium {
+    background-color: rgb(236,85,54);
+}
+.packagelist td:not(.feature), .packagelist th {
+    color:#fff;
+}
+.packagelist .package-item.col1 {
+    background-color: rgb(32,36,39);
+}
+.packagelist .package-item.col2 {
+    background-color: rgb(32,36,39);
+}
+.packagelist .package-item.col3 {
+    background-color: rgb(32,36,39);
+}
+.packagelist .feature {
+    background-color:rgb(210, 233, 249);
+}
+.packagelist td {
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+.footer-container h3,
+.footer-container h4,
+.footer-container h5,
+.footer-container h6 {
+    font-family: 'bebasregular', serif;
+}
+.main-container .wrapper {
+    margin-bottom:20px;
+}
+.me img {
+    width:40%;
+}
+.me blockquote {
+    width:50%;
+}
+.footer-container {
+    display: block;
+    max-width: 960px;
+    margin: -20px auto;
+    background-image: url(../img/headerbg.png);
+    background-repeat: repeat;
+    color: #FFF;
+    background-color: #333;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px -10px 10px -4px #BBB;
+    border-top: 1px solid #CCC;
+}
+.footer-container .wrapper {
+    min-height: 200px;
+    margin: -10px 11px;
+}
+.centertext {
+    text-align: center;
+}
+
+/* 
+   ==========================================================================
+   Media Queries
+   ==========================================================================
+   */
+
+   /*Tiny Screens Only*/
+   @media all and (max-width: 624px){
+
+    #toTop {
+        display:none !important;
+        visibility: hidden;
+    }
+
+    .wrapper {
+        /*Fixes issue with mobile where user can see empty space to right of the site*/
+        overflow-x:hidden;
+    }
+    .packagelist .feature
+    {
+        border-bottom:1px solid #4b4b4b;
+    }
+    .packagelist .package-item {
+        border-right:1px solid #4b4b4b;
+        border-bottom:1px solid #4b4b4b;
+        border-color:#4b4b4b;
+    }
+
+    .header-container, .main-container, .footer-container {
+        max-width:100%;
+    }
+    .main-container h1,.main-container h2 {
+        text-align: center;
+        display: block;
+        width: 100%;
+        box-shadow: none;
+        border: 0px;
+    }
+    .header-container nav ul li a:active {
+        background-color:rgba(244, 115, 0, 0.85);
+    }
+    .header-container nav {
+        margin-bottom: 7px;
+    }
+    .header-container nav ul {
+        display:inline-table;
+        text-align: center;
+        margin:0 auto;
+    }
+    .header-container nav ul li {
+        float: none;
+        display: inline-block;
+        min-height:25px;
+        width: 90px;
+    }
+    .header-container nav ul li a {
+        padding:10px 0px;
+        display:block;
+        width:100%;
+        text-align: center;
+    }
+    .main-container img {
+        padding:0px;
+        margin:0 auto;
+    }
+    .main-container blockquote {
+        margin-left:0px;
+    }
+    .main-container blockquote p {
+        border-left:4px solid #A1EFFA;
+        padding-left: 4px;
+    }
+    .me img, .me blockquote {
+        display:block;
+        float:none;
+        margin:0 auto;
+        width:100%;
+    }
+}
+/*Only screens large enough to see the header banner*/
+@media all and (min-width: 625px){
+
+    header.wrapper {
+        background-image:url(../img/header.jpg);
+        background-repeat: no-repeat;
+        width: 960px;
+        position: fixed;
+        left: 50%;
+        margin-left: -480px;
+    }
+    .header-container nav ul li a:hover {
+        background-color: rgba(244, 115, 0, 0.85);
+    }
+    .main-container .wrapper {
+        /*Accounts for the offset by the fixed header*/
+        padding-top:140px;
+    }
+    #mailme {
+        background:rgba(30, 144, 245, 0.85);
+    }
+    blockquote {
+        margin: 10px 10px 24px 10px;
+        font-style: italic;
+        max-width:700px;
+        display:inline-block;
+    }
+    blockquote p {
+        font-family: Georgia, serif;
+        font-size: 18px;
+        font-style: italic;
+        margin: 0.25em 0;
+        padding: 0.25em 40px;
+        line-height: 1.45;
+        position: relative;
+        color: #383838;
+    }
+    blockquote p:before {
+        display: block;
+        content: "\201C";
+        font-size: 80px;
+        position: absolute;
+        left: -12px;
+        top: -30px;
+        color: #7a7a7a;
+    }
+    blockquote > .quotesource {
+        margin-left:40px;
+        display:block;
+    }
+    /*Pricing table checkmarks*/
+    .bigcheck {
+        text-align: center;
+        font-size: 20px;
+        display: block;
+    }
+
+
+    .button {
+     border: 1px solid #0a3c59;
+     background: #3e779d;
+     background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+     background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+     background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+     background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+     background: -o-linear-gradient(top, #65a9d7, #3e779d);
+     background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+     padding: 10.5px 40px;
+     -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+     border-radius: 6px;
+     -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+     -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+     box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+     color: #ffffff;
+     font-size: 14px;
+     font-family: helvetica, serif;
+     text-decoration: none;
+     vertical-align: middle;
+ }
+ .button:hover {
+     border: 1px solid #0a3c59;
+     background: #3e779d;
+     background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+     background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+     background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+     background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+     background: -o-linear-gradient(top, #65a9d7, #3e779d);
+     background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+     color: #fff;
+ }
+ .button:active {
+     text-shadow: #1e4158 0 1px 0;
+     border: 1px solid #0a3c59;
+     background: #65a9d7;
+     background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+     background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+     background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+     background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+     background: -o-linear-gradient(top, #3e779d, #65a9d7);
+     background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+     color: #fff;
+ }
+}
+/*Full Size View*/
+@media only screen and (min-width:960px) {
+    /*Large screens only*/
+    .packagelist {
+        margin: 10px;
+    }
+    .packagelist td {
+        width:24%;
+    }
+    .packagelist .Features {
+
+    }
+    .packagelist .package-item {
+        font-size:20px;
+    }
+    .packagelist thead th {
+        font-size:25px;
+        font-family:sans-serif;
+    }
+    .packagelist .price {
+        font-size:50px;
+    }
+    img.floatleft {
+        margin-right:5px;
+    }
+}
+/*Print Styles*/
+@media print {
+    h1,h2 {
+        display: block !important;
+        border-right:none !important;
+    }
+}
+
+/*
+|--------------------------------------------------------------------------
+| UItoTop jQuery Plugin 1.2
+| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+|--------------------------------------------------------------------------
+*/
+
+#toTop {
+    display:none;
+    text-decoration:none;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    overflow:hidden;
+    width:51px;
+    height:51px;
+    border:none;
+    text-indent:100%;
+    background:url(../img/ui.totop.png) no-repeat left top;
+}
+
+#toTopHover {
+    background:url(../img/ui.totop.png) no-repeat left -51px;
+    width:51px;
+    height:51px;
+    display:block;
+    overflow:hidden;
+    float:left;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+    outline:none;
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+   .ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.floatleft {
+    float:left;
+}
+.floatright {
+    float:right;
+}
+.centered {
+    margin:0 auto;
+    display:block;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+   @media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+     .ir a:after,
+     a[href^="javascript:"]:after,
+     a[href^="#"]:after {
+        content: "";
+    }
+    #mailme:after {content: "";}
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
