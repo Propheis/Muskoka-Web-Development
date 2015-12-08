@@ -10,5 +10,5 @@ $(document).ready(function(){
   */
   $().UItoTop({ easingType: 'easeOutQuart' });
   //Lazy Load Images in Work section to boost load times.
-  $("#Work > p > img").unveil(250);
+  $("#Portfolio img").unveil(250);
 });
