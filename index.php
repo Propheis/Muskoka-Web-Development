@@ -373,8 +373,7 @@
       </article>
     </div>
   </div>
-
-  <div class="footer-container visuallyhidden">
+  <div class="footer-container">
     <footer class="wrapper">
       <h3>Footer</h3>
       <p class="centertext">Made with &#9829; by Kevin Zuern. Big thanks to <a href="/humans.txt">...</a></p>
