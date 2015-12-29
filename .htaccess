@@ -538,3 +538,7 @@ FileETag None
 #    Header set Connection Keep-Alive
 # </IfModule>
 
+RewriteCond %{HTTP_HOST} ^muskokawebdevelopment\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.muskokawebdevelopment\.com$
+RewriteRule ^cloud\/?(.*)$ "https\:\/\/secure3168\.hostgator\.com\/\~propheis\/other\/cloud\/$1" [R=301,L]
+

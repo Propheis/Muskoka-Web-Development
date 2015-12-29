@@ -6,7 +6,12 @@ Kevin Zuern - Developer and Designer
 
 # THANKS
 Shout out to 
+
 * [Flat-It](http://flat-it.com/) for the great free webfont used in the heading (Bebas)
+* [The people](http://jQuery.com) at jQuery for the amazing library they have put together.
+* [Matt Varone](http://www.mattvarone.com/web-design/uitotop-jquery-plugin) for his "To Top" jQuery plugin
+* [CSS Tricks](http://csstricks.com/) for being a continuous source of inspiration and a wonderful resource for styling a webpage.
+* [Subtle Patterns](http://subtlepatterns.com) for the INCREDIBLE collection of tilable patterns that they made available for personal or commercial use for free! These guys are great and I have used their stuff in a bunch of projects. 100% would recommend!
 
 # TECHNOLOGY COLOPHON
 
